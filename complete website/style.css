@@ -1,0 +1,43 @@
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;/* what will be the possition of content  it decides */
+    align-items:center;
+    height:100vh;
+
+}
+#container{
+    color:greenyellow;
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+
+}
+.txt
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    padding :7px 25px;
+    font-size:15px;
+    margin:0px 10px;
+    color : white;
+    border:0px;
+    cursor:pointer;
+}
+#start{
+       background-color: aqua;
+}
+#stop{
+      background-color:blueviolet;
+}
+#reset{
+    background-color: brown;
+}
